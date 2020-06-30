@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "213477109373",
+    "firebase_url": "https://daypicture-89f84.firebaseio.com",
+    "project_id": "daypicture-89f84",
+    "storage_bucket": "daypicture-89f84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213477109373:android:fd19076fe41d3da805cb14",
+        "android_client_info": {
+          "package_name": "com.adamian.daypicture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213477109373-lqh8i9tbchmi1mbka3n1sj5buj8913aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPp857NDXAaPK3sexeBSgl51QKQOxvAFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213477109373-lqh8i9tbchmi1mbka3n1sj5buj8913aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

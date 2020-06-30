@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_translate"
+        android:icon="@drawable/baseline_translate_24"
+        android:title="Translate"
+        android:tooltipText="Translate"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/baseline_help_24"
+        android:title="Info"
+        android:tooltipText="Info"
+        app:showAsAction="always" />
+
+</menu>

@@ -2,8 +2,8 @@ package com.adamian.daypicture.ui.main.state
 
 sealed class MainStateEvent {
 
-    class GetUserEvent(
-        val userId: String
+    class GetDataEvent(
+        val dataId: String
     ): MainStateEvent()
 
     class None: MainStateEvent()

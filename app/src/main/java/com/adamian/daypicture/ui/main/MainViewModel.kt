@@ -32,7 +32,7 @@ class MainViewModel : ViewModel(){
         println("DEBUG: New StateEvent detected: $stateEvent")
         when(stateEvent){
 
-            is GetUserEvent -> {
+            is GetDataEvent -> {
                 return Repository.getUser()
             }
 

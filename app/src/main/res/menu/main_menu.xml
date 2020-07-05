@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/baseline_sync_24"
+        android:title="Translate"
+        android:tooltipText="Translate"
+        app:showAsAction="always" />
+
+    <item
         android:id="@+id/action_translate"
         android:icon="@drawable/baseline_translate_24"
         android:title="Translate"

@@ -1,4 +1,4 @@
-# DayPicture
+# AstroPicture
 This application displays the "Astronomy Picture of the Day", synced by the public data of NASA.
 
 Moreover, the image description can be translated into three languages

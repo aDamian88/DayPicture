@@ -81,7 +81,7 @@ class MainFragment : Fragment() {
 
                     mainViewState.dayPicture?.let {
                         // set User data
-                        viewModel.setUser(it)
+                        viewModel.setPicture(it)
                     }
                 }
             }

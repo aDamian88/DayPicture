@@ -9,7 +9,7 @@ object MyRetrofitBuilder {
 
     const val BASE_URL: String = "https://api.nasa.gov/"
 
-    private val client = OkHttpClient.Builder().connectTimeout(200, java.util.concurrent.TimeUnit.MINUTES).writeTimeout(200, java.util.concurrent.TimeUnit.MINUTES).readTimeout(200, java.util.concurrent.TimeUnit.MINUTES).build()
+    private val client = OkHttpClient.Builder().connectTimeout(30, java.util.concurrent.TimeUnit.MINUTES).writeTimeout(30, java.util.concurrent.TimeUnit.MINUTES).readTimeout(200, java.util.concurrent.TimeUnit.MINUTES).build()
 
 
     val retrofitBuilder: Retrofit.Builder by lazy {

@@ -8,7 +8,7 @@ import com.adamian.daypicture.util.*
 
 object Repository {
 
-    fun getUser(): LiveData<DataState<MainViewState>> {
+    fun getPicture(): LiveData<DataState<MainViewState>> {
         return object: NetworkBoundResource<DayPicture, MainViewState>(){
 
             override fun handleApiSuccessResponse(response: ApiSuccessResponse<DayPicture>) {

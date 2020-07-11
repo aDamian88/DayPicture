@@ -33,7 +33,7 @@ class MainViewModel : ViewModel(){
         when(stateEvent){
 
             is GetDataEvent -> {
-                return Repository.getUser()
+                return Repository.getPicture()
             }
 
             is None ->{
@@ -43,7 +43,7 @@ class MainViewModel : ViewModel(){
     }
 
 
-    fun setUser(dayPicture: DayPicture){
+    fun setPicture(dayPicture: DayPicture){
         val update = getCurrentViewStateOrNew()
         update.dayPicture = dayPicture
         _viewState.value = update

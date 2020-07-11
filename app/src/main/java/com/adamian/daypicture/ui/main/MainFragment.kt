@@ -182,7 +182,7 @@ class MainFragment : Fragment() {
 
         return activity?.let {
             val builder = AlertDialog.Builder(it)
-            builder.setTitle("Pic a language")
+            builder.setTitle("Pick a language")
                 .setItems(languages,
                     DialogInterface.OnClickListener { dialog, which ->
                         if (which == 0) {
